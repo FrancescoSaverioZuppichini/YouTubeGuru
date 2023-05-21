@@ -1,0 +1,12 @@
+name: guru
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - openai
+    - youtube-dl
+    - gradio
+    - git+https://github.com/ytdl-org/youtube-dl.git
+    - langchain
