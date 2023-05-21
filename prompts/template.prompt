@@ -1,0 +1,10 @@
+Given a video transcription follow these tasks:
+
+{{
+    "summary": <Summarize the most essential aspects of the video in a concise manner>,
+    "description": <Generate a suitable YouTube description for the video, tailored to the content>,
+    "title": <Propose an attention-grabbing title for the YouTube video>
+}}
+
+Transcription:
+{youtube_transcription}
