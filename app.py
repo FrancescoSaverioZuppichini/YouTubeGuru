@@ -12,7 +12,6 @@ from langchain.prompts import HumanMessagePromptTemplate
 from langchain.schema import HumanMessage, SystemMessage
 from youtube_dl import YoutubeDL
 
-os.environ["OPENAI_API_KEY"] = "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"
 MODELS_NAMES = ["gpt-3.5-turbo", "gpt-4"]
 
 logging.basicConfig(

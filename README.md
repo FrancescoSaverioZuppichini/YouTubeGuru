@@ -1,7 +1,10 @@
-we will use gradio
-
-1) Transcribe the yt video
- - we need to have an input for you to place the video url
-2) Then we need to store it in a vector db
-    - ConversationTokenBufferMemory
-    https://python.langchain.com/en/latest/modules/memory/types/summary_buffer.html 
+---
+title: "YouTubeGuru"
+emoji: "🎬"
+colorFrom: "red"
+colorTo: "orange"
+sdk: "gradio"
+sdk_version: "3.32.0"
+app_file: app.py
+pinned: false
+---
